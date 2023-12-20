@@ -1,0 +1,134 @@
+
+html{
+    background-color: #110B39;
+    font-size: 16px;
+    font-family: unbounded;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.image-stack {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+.image-stack__item--bottom {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  
+.image-stack__item--top {
+    grid-row: 1;
+    grid-column: 2 / span 1;
+    padding-top: 20%;
+    z-index: 1; 
+  }
+
+.header {
+    flex-direction: row;
+    font-size: 1rem;
+    position: fixed;
+    text-align: right;
+}
+.header_section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 51px;
+
+}
+.number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin: 10px 35px;
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s linear;
+}
+a:hover {
+    color: #EE794E;
+}
+.video{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    z-index: -1;
+
+    border: 30px;
+    border-color: #4a2df9;
+    margin: 97px 0px 155px;
+}
+
+iframe {
+    border: 15px solid #4a2df9;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header_text {
+    font-size: 2.25rem;
+    color:#EE794E;
+    width: 303px;
+    margin-right: 110px;
+    text-align: right;
+}
+
+.EmotionSec {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 95px;
+}
+
+article {
+    width: 542px;
+    font-family: century;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .video-stack {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 27px 40px 150px;
+  }
+  
+.video-stack__item--bottom {
+    grid-column: 6 / -1;
+    padding-top: 4%;
+    grid-row: 1;
+  }
+  
+.video-stack__item--top {
+    grid-row: 1;
+    grid-column: 6 / span 12;
+
+    z-index: 1; 
+  } */
+
+
+/* .VideoWindow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+} */
+
+
